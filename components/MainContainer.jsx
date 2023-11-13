@@ -31,12 +31,13 @@ export default function MainContainer() {
                     }
                     return <Ionicons name={iconName} size={size} color={color}/>
                 },
-                headerTitleStyle: { color: theme==null ? 'rgb(25, 25, 25)' : theme.textColor},
-                headerStyle: { backgroundColor: theme==null ? 'rgb(111, 103, 120)' : theme.mainColor}
+                headerTitleStyle: { color: theme==null ? 'rgb(25, 25, 25)' : theme.textColor },
+                headerStyle: { backgroundColor: theme==null ? 'rgb(111, 103, 120)' : theme.mainColor }
             })}
             tabBarOptions={{
-                activeTintColor: theme==null ? 'rgb(25, 25, 25)' : theme.mainColor,
+                activeTintColor: theme==null ? 'rgb(25, 25, 25)' : theme.textColor,
                 inactiveTintColor: theme==null ? 'rgb(111, 103, 120)' : theme.secondColor,
+                tabStyle: { backgroundColor: theme==null ? 'rgb(111, 103, 120)' : theme.mainColor }
             }}
             >
             
