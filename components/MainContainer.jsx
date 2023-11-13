@@ -36,7 +36,7 @@ export default function MainContainer() {
             })}
             tabBarOptions={{
                 activeTintColor: theme==null ? 'rgb(25, 25, 25)' : theme.textColor,
-                inactiveTintColor: theme==null ? 'rgb(111, 103, 120)' : theme.secondColor,
+                inactiveTintColor: theme==null ? 'rgb(209, 187, 46)' : theme.secondColor,
                 tabStyle: { backgroundColor: theme==null ? 'rgb(111, 103, 120)' : theme.mainColor }
             }}
             >
